@@ -7,6 +7,8 @@ const handleData = (data) => {
   return data.data ? data.data[-1] : 'Nullify Flower :(';
 };
 
-BINGO.listen(handleData);
 
-export default handleData;
+
+export default async function(){
+	BINGO.listen(handleData);
+}
