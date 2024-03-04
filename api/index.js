@@ -4,7 +4,7 @@ const BINGO = new Host(4000);
 
 const handleData = (data) => {
   console.log(data());
-  return data().data[-1];
+  return data.data ? data.data[-1] : 'Nullify Flower :(';
 };
 
 BINGO.listen(handleData);
