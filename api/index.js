@@ -1,6 +1,6 @@
 import { Host } from 'zubox';
 
-const BINGO = new Host(80);
+const BINGO = new Host(8080);
 
 const handleData = (data) => {
   console.log(data());
