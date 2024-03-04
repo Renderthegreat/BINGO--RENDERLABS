@@ -1,9 +1,10 @@
 {
-  "name": "fastify",
+  "name": "bingo",
   "repository": "https://github.com/vercel/examples.git",
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "fastify": "^4.25.2"
+    "fastify": "^4.25.2",
+    "zubox": "1.0.7",
   }
 }
